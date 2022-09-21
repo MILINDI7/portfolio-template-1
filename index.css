@@ -21,8 +21,7 @@ nav {
 }
 
 .logo {
-  font-family: 'Poppins';
-  
+  font-family: 'Poppins', sans-serif;  
 }
 
 .heading {
@@ -39,7 +38,7 @@ a {
 }
 
 .first-header {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 20px;
   color: #172b4d;
@@ -47,7 +46,7 @@ a {
 }
 
 .first-paragraph {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 12px;
   color: #344563;
@@ -55,7 +54,7 @@ a {
 }
 
 .first-link a {
-  font-family: 'Poppins';
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 14px;
   color: #7f8cff;
