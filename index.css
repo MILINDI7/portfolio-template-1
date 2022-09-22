@@ -12,6 +12,7 @@ main {
 
 .short-about {
   padding: 20px 20px;
+  height: 630px;
 }
 
 nav {
@@ -53,7 +54,7 @@ a {
   margin: auto auto;
 }
 
-.first-link a {
+h2 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -62,6 +63,74 @@ a {
 
 .first-socials {
   width: 150px;
-  height: 15px;
+  height: 20pxpx;
   margin-top: 10px;
+  color: #505f79;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+  width: 130px;
+  color: #505f79;
+  padding-left: 0;
+}
+
+li {
+  color: #505f79;
+}
+
+.eli {
+  position: absolute;
+  top: 110px;
+}
+
+.elii {
+  position: absolute;
+  top: 160px;
+  right: -10px;
+}
+
+.eliii {
+  position: absolute;
+  top: 127px;
+  right: -10px;
+}
+
+.eliv {
+  position: absolute;
+  top: 140px;
+  right: 150px;
+}
+
+.elv {
+  position: absolute;
+  top: 149px;
+  right: 159px;
+  color: #cbcdff;
+}
+
+.elvi {
+  position: absolute;
+  top: 100px;
+  right: 90px;
+}
+
+.elvii {
+  position: absolute;
+  top: 620px;
+  right: 110px;
+}
+
+.elviii {
+  position: absolute;
+  top: 540px;
+  right: 50px;
+}
+
+.elviv {
+  position: absolute;
+  top: 550px;
+  right: 50px;
 }
