@@ -8,6 +8,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 130px;
+  padding: 0;
 }
 
 .short-about {
@@ -320,6 +321,7 @@ li {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
+  color: #6070ff;
 }
 
 .abouts {
