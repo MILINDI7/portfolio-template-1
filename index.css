@@ -203,7 +203,7 @@ li {
   color: #344563;
 }
 
-.html button{
+.html button {
   background-color: #ebebff;
   border: none;
   border-radius: 8px;
@@ -289,7 +289,7 @@ li {
 .title7 h3 {
   width: 300px;
   height: 100px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
   font-weight: 700;
   color: #172b4d;
@@ -298,7 +298,7 @@ li {
 .more-abouts p {
   width: 300px;
   height: 140px;
-  font-family: 'Poppins',sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 16px;
   font-weight: 400;
   color: #344563;
@@ -326,7 +326,7 @@ li {
   height: 470px;
 }
 
-.lang h4{
+.lang h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   font-weight: 500;
