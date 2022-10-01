@@ -7,7 +7,8 @@ main {
   margin: auto auto;
   display: flex;
   flex-direction: column;
-  gap: 130px;
+  gap: 160px;
+  width: 100%;
 }
 
 .short-about {
@@ -19,6 +20,7 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 10px 20px 120px 20px;
+  height: 60px;
 }
 
 .logo {
@@ -29,6 +31,10 @@ nav {
   background-color: #fff;
   height: 650px;
   border-radius: 0 0 0 50px;
+  background-image: url(header-shapes-mobile.png);
+  background-repeat: no-repeat;
+  background-position: 0 90px;
+  background-size: cover;
 }
 
 a {
@@ -92,6 +98,12 @@ li {
   right: -10px;
 }
 
+.cards {
+  display: grid;
+  gap: 120px;
+  height: auto;
+}
+
 .eliii {
   position: absolute;
   top: 127px;
@@ -137,7 +149,8 @@ li {
 
 .first-card {
   max-width: 378px;
-  height: 600px;
+  height: auto;
+  margin-bottom: 50px;
 }
 
 .container {
@@ -146,7 +159,7 @@ li {
   align-items: center;
   margin: auto auto;
   width: 280px;
-  height: 600px;
+  height: 650px;
   gap: 12px;
   border: 1px solid #dfe1e6;
   padding: 16px;
@@ -168,6 +181,7 @@ li {
   margin-top: 20px;
   gap: 5px;
   justify-items: center;
+  width: 130px;
 }
 
 .sub h3 {
@@ -179,11 +193,18 @@ li {
 }
 
 .back-end {
-  margin: auto auto;
+  /* margin: auto auto; */
   font-family: 'Poppins', sans-serif;
   font-size: 13px;
   font-weight: 600;
   color: #7a869a;
+  display: flex;
+  width: 190px;
+  gap: 5px;
+}
+
+.back-end p {
+  width: 100px;
 }
 
 .year {
@@ -192,6 +213,8 @@ li {
   font-size: 13px;
   font-weight: 600;
   color: #7a869a;
+  display: flex;
+  gap: 5px;
 }
 
 .more-about {
@@ -271,7 +294,7 @@ li {
   align-items: center;
   margin: auto auto;
   width: 280px;
-  height: 650px;
+  height: 700px;
   gap: 12px;
   border: 1px solid #dfe1e6;
   padding: 16px;
@@ -326,6 +349,17 @@ li {
   height: 470px;
 }
 
+.lang {
+  display: flex;
+  justify-content: space-between;
+  width: 280px;
+}
+
+.lang svg {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 .lang h4 {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
@@ -338,60 +372,60 @@ li {
   gap: 15px;
 }
 
-.java1 {
+.tool {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  height: 66.72px;
-  background-color: #f4f7f9;
-  border-radius: 8px;
+  gap: 15px;
+  height: 230px;
 }
 
-.java-icon {
-  margin: auto 10px;
+.tool ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.tool li {
+  display: flex;
+  gap: 10px;
+  width: 300px;
+  background-color: #f4f7f9;
+  height: 60px;
+  border-radius: 8px;
 }
 
 .labels {
   font-family: 'Poppins', sans-serif;
   font-size: 15px;
+  color: #253858;
   margin-top: auto;
   margin-bottom: auto;
-  margin-left: -90px;
   font-weight: 500;
-  color: #253858;
 }
 
-.html1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  height: 66.72px;
-  background-color: #f4f7f9;
-  border-radius: 8px;
-}
-
-.html-icon {
+.tool li img {
   margin: auto 10px;
 }
 
-.css1 {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  height: 66.72px;
-  background-color: #f4f7f9;
-  border-radius: 8px;
+.frames ul {
+  display: flex;
+  flex-direction: column;
 }
 
-.css-icon {
-  margin: auto 10px;
-}
-
-.frameworks {
+.frames li{
+  border-bottom: 1px solid grey;
+  width: 300px;
+  height: 65px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #dfe1e6;
-  height: 70px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
 }
 
-.frame {
+.frames svg {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* .frame {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 20px;
@@ -415,7 +449,7 @@ li {
   font-weight: 500;
   font-size: 20px;
   color: #000;
-}
+} */
 
 .button button:hover {
   width: 120px;
