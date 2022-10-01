@@ -9,7 +9,6 @@ main {
   flex-direction: column;
   gap: 160px;
   width: 100%;
-  gap: 130px;
   padding: 0;
 }
 
