@@ -413,7 +413,7 @@ li {
   flex-direction: column;
 }
 
-.frames li{
+.frames li {
   border-bottom: 1px solid grey;
   width: 300px;
   height: 65px;
