@@ -7,13 +7,10 @@ main {
   margin: auto auto;
   display: flex;
   flex-direction: column;
-<<<<<<< HEAD
   gap: 160px;
   width: 100%;
-=======
   gap: 130px;
   padding: 0;
->>>>>>> 75710d4018e3fc4525cf8f57a2e44a803028c73d
 }
 
 .short-about {
