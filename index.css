@@ -549,3 +549,15 @@ li {
   font-weight: 400;
   color: #172b4d;
 }
+
+.form-text textarea {
+  width: 300px;
+  height: 170px;
+  padding: 15px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #cfd8dc;
+}

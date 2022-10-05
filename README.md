@@ -45,6 +45,10 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
+## Collaborator
+
+- Jerome https://github.com/187jjay187
+
 ## Show your support
 
 Give a ⭐️ if you like this project!
