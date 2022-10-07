@@ -564,79 +564,79 @@ li {
 
 @media screen and (max-width: 992px) {
   #legacy2 {
-  display: none;
-}
+    display: none;
+  }
 
-#legendary2 {
-  display: none;
-}
+  #legendary2 {
+    display: none;
+  }
 
-#orbit2{
-  display: none;
-}
+  #orbit2{
+    display: none;
+  }
 
-#shivan2 {
-  display: none;
-}
+  #shivan2 {
+    display: none;
+  }
 
-#tonic2 {
-  display: none;
-}
+  #tonic2 {
+    display: none;
+  }
 
-.ruby {
-  display: none;
-}
+  .ruby {
+    display: none;
+  }
 
-#can2 {
-  display: none;
-}
+  #can2 {
+    display: none;
+  }
 
-#don2 {
-  display: none;
-}
+  #don2 {
+    display: none;
+  }
 
-#face2 {
-  display: none;
-}
+  #face2 {
+    display: none;
+  }
 
-#full2 {
-  display: none;
-}
+  #full2 {
+    display: none;
+  }
 
-#exp2 {
-  display: none;
-}
+  #exp2 {
+    display: none;
+  }
 
-#uber2 {
-  display: none;
-}
+  #uber2 {
+    display: none;
+  }
 
-#ub2 {
-  display: none;
-}
+  #ub2 {
+    display: none;
+  }
 
-#jun2 {
-  display: none;
-}
+  #jun2 {
+    display: none;
+  }
 
-#lead2 {
-  display: none;
-}
+  #lead2 {
+    display: none;
+  }
 
-#smart2 {
-  display: none;
-}
+  #smart2 {
+    display: none;
+  }
 }
 
 @media screen and (min-device-width: 480px) {
   main {
-  min-width: 768px;
-  display: flex;
-  flex-direction: column;
-  gap: 160px;
-  width: 100%;
-  padding: 0;
-  margin: 0;
+    min-width: 768px;
+    display: flex;
+    flex-direction: column;
+    gap: 160px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
   }
 
   #jun1 {
@@ -924,7 +924,7 @@ li {
     width: 48px;
     height: 48px;
   }
-  
+
   .frames li {
     width: 604px;
   }
@@ -947,7 +947,7 @@ li {
   }
 
   .form-title {
-    width:801px;
+    width: 801px;
     height: 36px;
     display: flex;
     justify-content: center;
@@ -971,7 +971,6 @@ li {
   .form-description p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-    /* margin-top: -70px; */
     font-size: 20px;
     line-height: 28px;
     text-align: center;
@@ -996,11 +995,11 @@ li {
     width: 465px;
   }
 
-  #intouch{
+  #intouch {
     width: 490px;
   }
 
-  #intouch button{
+  #intouch button {
     margin: auto 160px;
   }
 }
