@@ -562,7 +562,7 @@ li {
   color: #cfd8dc;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-device-width: 768px) {
   #legacy2 {
     display: none;
   }
@@ -628,7 +628,11 @@ li {
   }
 }
 
-@media screen and (min-device-width: 480px) {
+@media screen and (min-device-width: 768px) {
+  body {
+    width: 100%;
+  }
+
   main {
     min-width: 768px;
     display: flex;
@@ -649,21 +653,23 @@ li {
 
   .heading {
     min-width: 768px;
-    width: 1440px;
+    width: 1790px;
     height: 916px;
     background-image: url(Header-bg.png);
     background-color: #fff;
-    background-size: 1397.4px;
+    background-size: 1750px 800px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   .short-about {
-    width: 920px;
+    width: 65%;
     height: 268px;
     margin: 60px 260px;
   }
 
   .first-header {
-    width: 920px;
+    width: 80%;
     height: 122px;
     display: flex;
     align-items: center;
@@ -692,8 +698,9 @@ li {
   }
 
   .first-link {
-    width: 127px;
+    width: 50%;
     height: 24px;
+    margin: auto 120px;
   }
 
   .first-link h2 {
@@ -707,6 +714,7 @@ li {
   .first-socials {
     width: 170.17px;
     height: 20px;
+    margin: auto 120px;
   }
 
   .first-socials ul {
@@ -714,12 +722,14 @@ li {
   }
 
   .cards {
-    margin: auto auto;
+    margin: 142px auto;
+    width: 1090px;
   }
 
   .first-card {
     width: 1156px;
     height: 496px;
+    margin: auto auto;
   }
 
   .container {
@@ -845,7 +855,7 @@ li {
   }
 
   .all-about {
-    width: 1440px;
+    width: 1750px;
   }
 
   .container3 {
@@ -870,13 +880,13 @@ li {
   }
 
   .lang {
-    width: 604px;
+    width: 864px;
   }
 
   .tool ul {
     display: flex;
     flex-direction: row;
-    width: 600px;
+    width: 700px;
     height: 100px;
   }
 
@@ -926,24 +936,24 @@ li {
   }
 
   .frames li {
-    width: 604px;
+    width: 874px;
   }
 
   footer {
-    width: 1440px;
+    width: 1770px;
     height: 846px;
     background-color: #6070ff;
   }
 
   .form-container {
-    width: 1448px;
+    width: 1755px;
     height: 846px;
     background-color: #6070ff;
     margin-top: -250px;
     display: flex;
     justify-content: center;
     background-image: url(form-bck.png);
-    background-size: 1400px 800px;
+    background-size: 1700px 950px;
   }
 
   .form-title {
@@ -1001,5 +1011,10 @@ li {
 
   #intouch button {
     margin: auto 160px;
+  }
+
+  .first-card:hover {
+    border: 2px solid #a7aeff;
+    border-radius: 24px;
   }
 }
