@@ -1030,6 +1030,7 @@ li {
 
   .form-mail input {
     width: 465px;
+    transition: width 2s, color 2s, border-radius 2s, height 2s;
   }
 
   .form-text textarea {
@@ -1050,6 +1051,13 @@ li {
   }
 
   .form-names input:hover {
+    width: 600px;
+    color: #fff;
+    border-radius: 20px;
+    height: 100px;
+  }
+
+  .form-mail input {
     width: 600px;
     color: #fff;
     border-radius: 20px;
