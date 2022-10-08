@@ -626,6 +626,10 @@ li {
   #smart2 {
     display: none;
   }
+
+  .reach {
+    display: none;
+  }
 }
 
 @media screen and (min-device-width: 768px) {
@@ -641,6 +645,32 @@ li {
     width: 100%;
     padding: 0;
     margin: 0;
+  }
+
+  .menus {
+    display: none;
+  }
+
+  .reach {
+    width: 259px;
+    height: 40px;
+  }
+
+  .reach a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
+  }
+
+  .reach li {
+    width: 63px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #344563;
   }
 
   #jun1 {
