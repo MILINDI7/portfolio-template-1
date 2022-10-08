@@ -1025,6 +1025,7 @@ li {
 
   .form-names input {
     width: 465px;
+    transition: width 2s, color 2s, border-radius 2s, height 2s;
   }
 
   .form-mail input {
@@ -1046,5 +1047,12 @@ li {
   .first-card:hover {
     border: 2px solid #a7aeff;
     border-radius: 24px;
+  }
+
+  .form-names input:hover {
+    width: 600px;
+    color: #fff;
+    border-radius: 20px;
+    height: 100px;
   }
 }
