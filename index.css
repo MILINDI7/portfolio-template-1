@@ -1057,7 +1057,7 @@ li {
     height: 100px;
   }
 
-  .form-mail input {
+  .form-mail input:hover {
     width: 600px;
     color: #fff;
     border-radius: 20px;
